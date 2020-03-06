@@ -1,1 +1,3 @@
+do_become: yes
+
 local_source_directory: /usr/local/src

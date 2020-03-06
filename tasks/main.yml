@@ -5,5 +5,5 @@
     name: '{{ local_source_directory }}'
     mode: 0755
     state: directory
-  become: yes
+  become: '{{ do_become }}'
   tags: [local-source, packages]
