@@ -3,7 +3,7 @@
 - name: Create local source directory
   file:
     name: '{{ local_source_directory }}'
-    mode: 0755
+    mode: '755'
     state: directory
   become: '{{ do_become }}'
   tags: [local-source, packages]
